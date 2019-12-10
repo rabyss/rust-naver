@@ -1,0 +1,15 @@
+[package]
+name = "naver"
+version = "0.1.0"
+authors = ["drskur <drskur@me.com>"]
+edition = "2018"
+
+[lib]
+name = "naver"
+path = "src/lib.rs"
+
+[dependencies]
+reqwest = "0.9"
+dotenv = "0.15"
+failure = "0.1"
+serde = "1"
