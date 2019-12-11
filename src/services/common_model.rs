@@ -4,7 +4,7 @@ use serde::{Serialize, Deserialize};
 #[serde(rename_all = "camelCase")]
 pub struct Meta {
     pub total_count: i32,
-    pub page: i32,
+    pub page: Option<i32>,
     pub count: i32
 }
 
